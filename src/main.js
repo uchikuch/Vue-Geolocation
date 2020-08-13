@@ -1,7 +1,7 @@
 import Vue from "vue";
 import App from "./App.vue";
 import VueGeolocation from "vue-browser-geolocation";
-import key from "./config/key";
+import key from "../config/key";
 
 Vue.config.productionTip = false;
 Vue.use(VueGeolocation);
